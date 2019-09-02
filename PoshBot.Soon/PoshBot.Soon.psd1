@@ -51,7 +51,7 @@ PowerShellVersion = '5.0.0'
 # ProcessorArchitecture = ''
 
 # Modules that must be imported into the global environment prior to importing this module
-RequiredModules = @('PoshBot')
+RequiredModules = @(@{ModuleName='PoshBot'; ModuleVersion='0.11.8'; Guid='7bfb126c-b432-4921-989a-9802f525693f'})
 
 # Assemblies that must be loaded prior to importing this module
 # RequiredAssemblies = @()
