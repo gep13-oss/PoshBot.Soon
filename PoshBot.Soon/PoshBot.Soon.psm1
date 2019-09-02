@@ -43,8 +43,7 @@ function Get-Soon {
 
     $randomlySelectedImage = Get-Random -InputObject $imageArray
 
-    # @devblackops - You could also use the New-PoshBotCardResponse -ImageUrl <url>
     if ($randomlySelectedImage) {
-		New-PoshBotCardResponse -ImageUrl $randomlySelectedImage
+        New-PoshBotCardResponse -ImageUrl $randomlySelectedImage
     }
 }
