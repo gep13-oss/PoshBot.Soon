@@ -45,6 +45,6 @@ function Get-Soon {
 
     # @devblackops - You could also use the New-PoshBotCardResponse -ImageUrl <url>
     if ($randomlySelectedImage) {
-            "![img]($($randomlySelectedImage))"
+		New-PoshBotCardResponse -ImageUrl $randomlySelectedImage
     }
 }
