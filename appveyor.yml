@@ -1,0 +1,13 @@
+version: 1.0.{build}
+
+image: Visual Studio 2015
+
+build: off
+
+# Uncomment this block to enable RDP access to the AppVeyor test instance for
+# debugging purposes.
+# on_finish:
+#  - ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
+
+test_script:
+- ps: . .\build.ps1 -Task Test
