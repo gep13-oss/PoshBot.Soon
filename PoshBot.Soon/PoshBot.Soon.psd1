@@ -21,7 +21,7 @@ ModuleVersion = '0.1.0'
 GUID = 'bd719e1d-b82c-44ff-8852-6c21458fbcba'
 
 # Author of this module
-Author = 'Gary Ewan Park'
+Author = 'Gary Ewan Park, Maurice Kevenaar'
 
 # Company or vendor of this module
 CompanyName = 'Community'
