@@ -39,7 +39,13 @@ function Get-Soon {
     "https://i.imgur.com/ftGheRE.jpg",
     "https://i.imgur.com/Y4ExtS5.gif",
     "https://i.imgur.com/pDXRVjp.jpg",
-    "https://i.imgur.com/L2SZuzG.gif"
+    "https://i.imgur.com/L2SZuzG.gif",
+    "https://i.imgur.com/UxhH8AD.jpg",
+    "https://i.imgur.com/HiwtGIU.jpg",
+    "https://i.imgur.com/n8q4cgF.jpg",
+    "https://i.imgur.com/WNJed2o.png",
+    "https://i.imgur.com/MhkfaaV.jpg",
+    "https://i.imgur.com/Af5e7ob.png"
 
     $randomlySelectedImage = Get-Random -InputObject $imageArray
 

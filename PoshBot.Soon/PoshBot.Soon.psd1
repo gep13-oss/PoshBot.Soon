@@ -21,7 +21,7 @@ ModuleVersion = '0.1.0'
 GUID = 'bd719e1d-b82c-44ff-8852-6c21458fbcba'
 
 # Author of this module
-Author = 'Gary Ewan Park'
+Author = 'Gary Ewan Park, Maurice Kevenaar'
 
 # Company or vendor of this module
 CompanyName = 'Community'
@@ -100,16 +100,16 @@ PrivateData = @{
         Tags = @('PoshBot', 'Soon', 'ChatOps')
 
         # A URL to the license for this module.
-        LicenseUri = 'https://raw.githubusercontent.com/gep13/PoshBot.Soon/develop/LICENSE'
+        LicenseUri = 'https://raw.githubusercontent.com/gep13-oss/PoshBot.Soon/develop/LICENSE'
 
         # A URL to the main website for this project.
-        ProjectUri = 'https://github.com/gep13/PoshBot.Soon'
+        ProjectUri = 'https://github.com/gep13-oss/PoshBot.Soon'
 
         # A URL to an icon representing this module.
         # IconUri = ''
 
         # ReleaseNotes of this module
-        ReleaseNotes = 'https://raw.githubusercontent.com/gep13/PoshBot.Soon/develop/CHANGELOG.md'
+        ReleaseNotes = 'https://github.com/gep13-oss/PoshBot.Soon/releases'
 
     } # End of PSData hashtable
 
